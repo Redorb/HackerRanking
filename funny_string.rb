@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/funny-string
+
 def funny_codepoints? str_cps, rev_str_cps, pos
     (str_cps[pos+1] - str_cps[pos]).abs == (rev_str_cps[pos+1] - rev_str_cps[pos]).abs
 end

@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/alternating-characters
+
 numCases = gets
 while str = gets do
     previous_char = ""
